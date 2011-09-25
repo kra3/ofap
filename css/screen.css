@@ -1,0 +1,641 @@
+@charset "UTF-8";
+/** 
+	* Author: Arun.K.R <code333@gmail.com>
+	* Date    : Februvary 12, 2009  
+	* File name:screen.css  
+	*  
+	* @licenseCreative Commons Attribution-Noncommercial-Share Alike 3.0 Unported License.  
+	* @copyright Copyright(c) Arun.K.R <http://www.krarun.co.cc>  
+	* @version          1.0  
+	*/
+body{
+	background-color:#242223;
+	color:#fff;
+	height:100%;
+	width:100%;
+	font-family:Arial,Helvetica,Verdana,Sans-serif;
+	font-size:16px; 
+}
+
+.clear{
+	clear:both;
+}
+
+.hide{
+	text-indent:-9999px;
+	font-size:0px;
+	line-height:0px;
+}
+
+div.container{
+	background:url("../img/Black_Repeat.png") #242223 repeat-y; 
+	position:relative;
+	margin:auto;/* This helps to center the page. */ 
+	width:950px;
+}
+
+div.logo{
+	position:absolute;
+	display:block;
+	top:12px;
+	left:72px;
+	height:50px;
+	width:200px;
+	background:url("../img/Logo.png") transparent no-repeat;
+}
+
+/* Banner settings starts here*/
+div.banner{
+	position:absolute;
+	background:url("../img/Red_Band_Side.png") #da3232 center;
+	height:175px;
+	width:100%;
+	top:65px;
+	z-index:1;
+}
+
+div.head_design{
+	position:relative;
+	width:100%;
+	height:175px;
+	z-index:2;
+	background:url("../img/Red_Band_Middle.png") transparent repeat-y;
+}
+
+div.head_design span{
+	position:absolute;
+	display:block;
+	top:27px;
+	left:99px;
+	height:95px;
+	width:300px;
+	background:url("../img/OFAP.png") transparent no-repeat;
+}
+
+div.head_design span span{
+	position:absolute;
+	display:block;
+	top:-25px;
+	left:480px;
+	height:175px;
+	width:150px;
+	background:url("../img/Cock.png") transparent no-repeat;
+	z-index:7;
+}
+/*banner settings ends*/
+/* Menu normal, hover and 'I'm here' effect settings start here */
+div.nav{
+	position:relative;
+	float:right;
+	height:65px;
+	width:483px;
+	right:54px; 
+	background:url("../img/NAV_Menu.png") transparent bottom left no-repeat; 
+}
+
+div.nav dt{
+	float:left
+}
+
+div.nav dt a{
+	position:absolute;
+	display:block;
+	overflow:hidden;
+	top:0px;
+	height:65px
+}
+dt a{
+	background:url("../img/NAV_Menu.png") transparent bottom left no-repeat;
+}
+
+dt.home a{
+	left:0px;
+	width:68px;
+	background-position:0px 130px; 
+}
+
+dt.gallery a{
+	left:68px;
+	width:94px;
+	background-position:-68px 130px; 
+}
+
+dt.activities a{
+	left:162px;
+	width:93px;
+	background-position:-162px 130px; 
+}
+
+dt.news a{
+	left:255px;
+	width:58px;
+	background-position:-255px 130px; 
+}
+
+dt.helth a{
+	left:313px;
+	width:77px;
+	background-position:-313px 130px;
+}
+
+dt.contact a{
+	left:390px;
+	width:92px;
+	background-position:-390px 130px;
+}
+
+dt.home a:hover{
+	background-position:0px -65px
+}
+
+dt.gallery a:hover{
+	background-position:-68px -65px
+}
+
+dt.activities a:hover{
+	background-position:-162px -65px
+}
+
+dt.news a:hover{
+	background-position:-255px -65px
+}
+
+dt.helth a:hover{
+	background-position:-312px -65px
+}
+
+dt.contact a:hover{
+	background-position:-390px -65px
+}
+
+.at_home dt.home a{
+	background-position:0px 0px
+}
+
+.at_gallery dt.gallery a{
+	background-position:-68px 0px
+}
+
+.at_activity dt.activities a{
+	background-position:-162px 0px
+}
+
+.at_news dt.news a{
+	background-position:-255px 0px
+}
+
+.at_health dt.helth a{
+	background-position:-312px 0px
+}
+
+.at_contact dt.contact a{
+	background-position:-390px 0px
+}
+/* menu effects ends here*/
+/* Main data container */
+div.content{
+	position:relative;
+	margin:auto;
+	width:100%;
+	height:auto;
+	font-size:17px;
+}
+
+div.content div.reflection{
+	position:relative;
+	clear: both; 
+	margin:auto;
+	height: 15px; 
+	width:100%;
+	bottom: -15px; 
+	background: url("../img/Blacker_Botttom.png") bottom left  no-repeat;
+}
+
+/* Home page view */
+div.data{
+	position:relative;
+	background:url("../img/Around_Stroke.png") transparent no-repeat; 
+	float:left;
+	clear:left;
+	width:550px;
+	min-height: 580px; 
+	height: auto; 
+	top: 12px; 
+	left:99px
+}
+
+div.data h1{
+	position: relative;
+	float: right;
+	display: block;
+	height: 57px;
+	width: 150px;
+	clear: both;
+	top: 15px; 
+	right: 27px; 
+	background: url("../img/Articles.png") transparent top right no-repeat ;
+}
+
+div.teaser{
+	position: relative;
+	float: left;
+	clear: left;
+	width: 510px;
+	height: 84px; 
+	margin-top: 5px;
+	left: 18px;
+}
+
+div.teaser img{
+	position: relative; 
+	float: left;
+	width: 80px; 
+	height: 80px;
+	left: -40px; 
+}
+
+div.teaser img:hover{
+	position: relative; 
+	float: left;
+	width: 80px; 
+	height: 80px;
+	left: -27px; 
+	z-index: 2; 
+}
+
+div.teaser h2{
+	position: relative;  
+	top: 9px; 
+	left: 21px; 
+	width: 500px; 
+	padding-bottom: 9px; 
+	text-indent:  -36px;
+	background: url("../img/Cutter.png") bottom left no-repeat ;
+}
+
+div.teaser p{
+	position: relative; 
+	top: 12px; 
+	height: 36px;
+	overflow: hidden;  
+	font-size: 14px; 
+}
+
+div.teaser p a{
+	position: relative;
+	top: 5px; 
+	left: 5px; 
+	height: 8px;
+	width: 8px; 
+	text-decoration: none; 
+	background: url("../img/Arrow.jpg") transparent top left no-repeat ;
+}
+
+div.teaser p a:hover{
+	position: relative;
+	top: 5px; 
+	left: 5px; 
+	height: 8px;
+	width: 8px;
+	background: url("../img/Arrow.jpg") transparent top left no-repeat ;
+}
+/* home page section ends here*/
+/* All other pages section starts here*/
+div.wrapper{
+	position:relative;
+	width:590px;
+	height: auto;
+	min-height: 450px; 
+	top: 9px; 
+	left: 69px; 
+    background: url("../img/Ver_Cutter_Repeat.png") transparent top right repeat-y;
+} 
+
+div.wrapper h1{
+	position: relative;
+	float: left; 
+	width: 100%; 
+	padding-top: 36px;
+	text-transform: capitalize;
+	font-size: x-large;
+	height: 54px; 
+	text-align: center;
+}
+div.wrapper h3{
+	position: relative;
+	float: left; 
+	width: 100%; 
+	padding-top: 27px;
+	text-transform: capitalize;
+	font-size: medium; 
+	text-decoration: underline;	
+}
+
+div.wrapper p{
+	position: relative;
+	float: left;
+	width: 96%;
+	height: auto;
+	padding-top: 15px;
+	margin-bottom: 15px; 
+	text-indent: 45px; 
+	text-align: justify; 
+}
+
+div.wrapper p:first-letter{
+	color: inherit; 
+	font-size: xx-large; 
+}
+
+div.wrapper p img.left{
+	 float: left;
+	 margin: 0px 10px 0px 0px;
+	 border:1px solid  silver; 
+}
+div.wrapper p img.right{
+	 float: right; 
+	 margin: 0px 0px 0px 10px;
+	 border:1px solid  silver; 
+}
+div.wrapper table.table {
+	clear: left; 
+	margin: 0.5em 0px 0.2em 30px; 
+	border: solid 1px rgb(150,150,150); 
+	empty-cells: show; 
+	border-collapse: collapse; 
+}
+div.wrapper table.table tr {
+	margin: 0px; 
+	padding: 0px;
+}
+div.wrapper table.table td {
+	padding: 2px 7px 2px 7px;
+	border: solid 1px rgb(150,150,150);
+	text-align: left; 
+}
+div.wrapper table.table th {
+	margin: 0px; 
+	padding: 2px 7px 2px 7px; 
+	border: solid 1px rgb(150,150,150); 
+	empty-cells: show; 
+	text-align: left; 
+}
+
+div.wrapper address{
+	position: relative; 
+	float:right; 
+	clear: left; 
+	right: 24px; 
+	margin-top: 24px;
+	padding-bottom: 15px; 
+	font:16px 2 normal "Helvetica" , cursive;
+	text-align: right;   
+}
+div.wrapper address.left{
+	position: relative; 
+	float:left; 
+	clear: left; 
+	left: 24px; 
+	margin-top: 24px;
+	padding-bottom: 15px; 
+	font:16px 2 normal "Helvetica" , cursive;
+	text-align: left;
+	line-height: 1.1em; 
+}
+div.wrapper address.left a{
+	text-decoration: none;
+	color: silver; 
+}
+div.wrapper address.left a:hover{
+	text-decoration: underline; 
+}
+
+div.wrapper p a{
+	text-decoration: none; 
+	color: gray; 
+}
+div.wrapper p a:hover{
+	text-decoration: underline; 
+}
+div.wrapper ul{
+	position: relative;
+	float: left;
+	width: 96%;
+	height: auto;
+	padding-top: 15px;
+	margin-bottom: 15px; 
+	margin-left: 9px; 
+	text-align: justify; 
+}
+div.wrapper li{
+	list-style:disc outside; 
+}
+
+
+/* All other pages section ends here*/
+/*special Menu  for articles starts here*/
+div.articlesMenu{
+	position: relative;
+	float: left;
+	clear: left; 
+	width: 300px;
+	height: 54px;
+	left: 150px;  
+	margin-bottom: 12px; 
+	margin-top: 21px; 
+	background: url("../img/Cutter.png") bottom right no-repeat ;
+}
+
+div.articlesMenu li{
+	position: relative;
+	display: block;   
+	float: left; 
+	padding:0px 12px; 
+}
+
+div.articlesMenu img{
+	position: relative; 
+	float: left; 
+	height: 40px; 
+	width: 40px;  
+}
+div.articlesMenu img.selected{
+	position: absolute; 
+	float: left;
+	left: -81px;  
+	top: -15px; 
+	height: 80px; 
+	width: 80px;  
+	z-index:3;
+}
+div.articlesMenu li:hover{
+	position: relative; 
+	float: left; 
+	height: 42px; 
+	width: 42px;  
+	top: 9px; 
+}
+
+div.articlesMenu a span{
+	position:absolute;
+	left:-9000px;
+	display:block;
+	width:150px;
+	height:auto;
+	text-align: center;
+	color:#4a90e3;
+	overflow: hidden; 
+	border:thin outset white; 
+}
+div.articlesMenu a:hover span, div.articlesMenu a:focus span, div.articlesMenu a:active span{
+	top: 63px; 
+	left: -36px; 
+}
+
+
+/*Menu for articles ends here*/
+/* Side bar containing login and add panels*/
+div.sideBar{
+	position:relative;
+	float: right; 
+	overflow: hidden; 
+	left: -64px;
+	top:21px;
+	width: 230px; 
+	height: auto;
+	min-height: 450px; 
+	margin-bottom: 9px; 
+}
+/* footer section begins here*/
+div.footer{
+	position:relative;
+	width:950px;
+	margin: auto; 
+	height:125px;
+	bottom:-15px;
+	font-family:Tahoma,Arial,Helvetica,Sans-serif;
+	color:gray;
+}
+
+div.footer p{
+	text-align:center;
+	text-transform:capitalize;
+	line-height:1.2em;
+	font-size:12px; 
+}
+div.footer a{
+	color:silver;
+	text-decoration:none;
+}
+div.footer a:hover{
+	color:#22a3d2; 
+	text-decoration: underline; 
+}
+
+div.footer img{
+	position: absolute; 
+	float: left;
+	width: 125px; 
+	height: 125px;
+	left: 54px; 
+}
+
+div.info{
+	position:relative;
+	float: right; 
+	height: 75px; 
+	width: 750px; 
+	left: -99px; 
+	top: 45px;
+}
+
+div.footer a.push_up {
+	position: relative; 
+	float: right;
+	height: 70px;
+	width: 36px; 
+	left: 603px; 
+	top: -17px; 
+	background: url("../img/Up_Arrow.png") top left no-repeat ;
+}
+
+div.footer a:hover.push_up {	
+	background: url("../img/Up_Arrow.png") top right no-repeat ;
+}
+/* footer section ends here */ 
+/* Login prompt starts here*/
+div.login{
+	position: relative;
+	float: left;
+	clear: both;
+	width: 225px;
+	height: 200px;
+	top: 15px;
+	left: 2px; 
+	padding-bottom: 36px; 
+	background:url("../img/Log_in_Menu.png") transparent top right no-repeat ; 
+}
+
+div.login label{
+	position: relative;
+	float: left; 
+	clear: both; 
+	width: 80%; 
+	left: 21px;
+	padding-bottom:5px;   
+	padding-top: 5px; 
+}
+
+div.login input{
+	position: relative;
+	float: left; 
+	clear: both;  
+	border:hidden ;
+	width: 80%; 
+	left: 21px;
+	margin-bottom:3px;   
+}
+div.login fieldset{
+	position: relative;
+	float: right;
+	width: 100%; 
+	right: 5px; 
+	top: -18px; 
+}
+div.login legend{
+	position: relative;
+	float: right;
+	background:url("../img/Log_in.png") transparent top right no-repeat;
+	height: 40px;
+	width: 100%; 
+	clear: both;
+}
+div.login input.login{
+	position: relative;
+	float: right; 
+	clear: both; 
+	width: 80%; 
+	height: 35px;
+	width: 90px; 
+	left: -21px;
+	margin-top: 15px; 
+	border:hidden ; 
+	color: white; 
+	background: url("../img/Button_1.png") transparent top left no-repeat ;
+}
+
+div.login input.login:hover{
+	background: url("../img/Button_2.png") transparent top left no-repeat ;
+	cursor: pointer; 
+}
+div.advertise{
+	position: absolute;
+	float: right; 
+	overflow: hidden; 
+	width: 230px; 
+	height: auto;
+	right: 54px; 
+	top: 145px; 
+	min-height: 450px; 
+	margin-bottom: 9px; 
+}
